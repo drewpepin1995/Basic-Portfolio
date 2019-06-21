@@ -1,0 +1,22 @@
+p {
+    color: #777777;
+}
+form {
+    color: #777777;
+}
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+footer{
+    background-color: #666666;
+}
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+h1 {
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+
+}
