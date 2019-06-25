@@ -120,12 +120,12 @@ div.HangmanLink {
     position: absolute;
     background-color: #4aaaa5;
     padding: 1rem;
-    width: 100%;
+    width: 168px;
     right:0;
     left:0;
     top: 60%;
+    text-align: center;
 }
 a.HangmanText {
     color: #ffffff;
-    text-align: center;
 }
