@@ -1,5 +1,9 @@
 body {
     background-image: url(../images/gravel.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 p {
     color: #777777;
@@ -64,6 +68,8 @@ h2 {
 }
 p.Copyright {
     color: #ffffff;
+    font-size: 10px;
+    padding: 1rem;
 }
 nav.Header__nav {
     margin-left:auto;
@@ -83,9 +89,6 @@ header h1 {
     background-color: #4aaaa5;
     color: #fff;
     margin-bottom: 0;
-}
-input {
-    padding:
 }
 input[type=text] {
     width: 100%;
