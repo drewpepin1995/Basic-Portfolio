@@ -105,7 +105,27 @@ input[type=submit] {
     padding-left: 1rem;
     padding-right: 1rem; 
 }
-hr.line__two {
+hr.linetwo, hr.linethree {
     margin:auto;
     margin-bottom: 1rem;
+}
+div.Hangman {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../images/hangman.jpg);
+}
+div.HangmanLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    width: 100%;
+    right:0;
+    left:0;
+    top: 60%;
+}
+a.HangmanText {
+    color: #ffffff;
+    text-align: center;
 }
