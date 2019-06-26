@@ -164,7 +164,7 @@ div.TriviaGame {
     width: 200px;
     height: 200px;
     border: 1px solid black;
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-image: url(../images/Trivia.jpg);
     margin-top: 2rem; 
     display: inline-block;
