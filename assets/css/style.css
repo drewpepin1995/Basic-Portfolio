@@ -205,6 +205,7 @@ div.RockPaper {
     margin-left: 1rem;
     background-image: url(../images/RockPaper.jpg);
     margin-top: 2rem;  
+    margin-bottom: 2rem;
 }
 div.RockPaperLink {
     position: absolute;
