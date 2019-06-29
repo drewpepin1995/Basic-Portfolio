@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     background-image: url(../images/gravel.png);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 p {
     color: #777777;
@@ -20,6 +24,7 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: 'Georgia', Times, serif;
+    border-bottom: 1.5px solid grey;
 }
 footer{
     background-color: #666666;
@@ -215,4 +220,13 @@ div.RockPaperLink {
     left:0;
     top: 60%;
     text-align: center;      
+}
+.nav-nav>li {
+    border-right: 1px solid grey;
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left:0.5rem;
+}
+.nav-nav>li:last-child {
+    border: none;
 }
