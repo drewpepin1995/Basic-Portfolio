@@ -211,6 +211,7 @@ div.RockPaper {
     background-image: url(../images/RockPaper.jpg);
     margin-top: 2rem;  
     margin-bottom: 2rem;
+    display: inline-block;
 }
 div.RockPaperLink {
     position: absolute;
@@ -220,6 +221,27 @@ div.RockPaperLink {
     left:0;
     top: 60%;
     text-align: center;      
+}
+
+div.gifProject {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 2rem;
+    background-image: url(../images/RIW.jpg); 
+    display: inline-block;
+    margin-top: 2rem;
+
+}
+div.gifLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;    
 }
 .nav-nav>li {
     border-right: 1px solid grey;
