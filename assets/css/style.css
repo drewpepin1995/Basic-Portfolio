@@ -120,7 +120,7 @@ form {
 hr.linetwo, hr.linethree {
     margin: 1rem;
 }
-div.Hangman {
+div.bootstrap {
     background-image: url(../images/hangman.jpg);
     position: relative;
     width: 200px;
@@ -133,7 +133,7 @@ div.Hangman {
     
     
 }
-div.HangmanLink {
+div.bootstrapLink {
     position: absolute;
     background-color: #4aaaa5;
     padding: 1rem;
@@ -142,10 +142,10 @@ div.HangmanLink {
     top: 60%;
     text-align: center;
 }
-a.HangmanText, a.RPGText, a.TriviaText, a.RIWText, a.RockPaperText {
+a.bootstrapText, a.responsiveText, a.TriviaText, a.crystalGameText, a.psychicGameText, a.gifText{
     color: #ffffff;
 }
-div.RPGGame {
+div.responsive {
     position: relative;
     width: 200px;
     height: 200px;
@@ -155,7 +155,7 @@ div.RPGGame {
     margin-top: 1rem;
     display: inline-block;
 }
-div.RPGLink{
+div.responsiveLink{
     position: absolute;
     background-color: #4aaaa5;
     padding: 1rem;
@@ -183,7 +183,7 @@ div.TriviaLink {
     top: 60%;
     text-align: center;  
 }
-div.RutgersInfoWidget {
+div.crystalGame {
     position: relative;
     width: 200px;
     height: 200px;
@@ -193,7 +193,7 @@ div.RutgersInfoWidget {
     margin-top: 2rem; 
     display: inline-block;
 }
-div.RIWLink {
+div.crystalGameLink {
     position: absolute;
     background-color: #4aaaa5;
     padding: 1rem;
@@ -202,7 +202,7 @@ div.RIWLink {
     top: 60%;
     text-align: center;    
 }
-div.RockPaper {
+div.psychicGame {
     position: relative;
     width: 200px;
     height: 200px;
@@ -213,7 +213,7 @@ div.RockPaper {
     margin-bottom: 2rem;
     display: inline-block;
 }
-div.RockPaperLink {
+div.psychicGameLink {
     position: absolute;
     background-color: #4aaaa5;
     padding: 1rem;
