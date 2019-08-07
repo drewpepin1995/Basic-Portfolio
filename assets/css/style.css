@@ -104,7 +104,7 @@ input[type=text] {
 }
 input.message {
     height: 200px;
-    margin-top: 0.5rem;
+
 }
 input[type=submit] {
     margin-top: 1rem;
