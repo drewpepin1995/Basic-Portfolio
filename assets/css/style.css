@@ -142,7 +142,7 @@ div.bootstrapLink {
     top: 60%;
     text-align: center;
 }
-a.bootstrapText, a.responsiveText, a.TriviaText, a.crystalGameText, a.psychicGameText, a.gifText{
+a.bootstrapText, a.responsiveText, a.TriviaText, a.crystalGameText, a.psychicGameText, a.gifText, a.trainText {
     color: #ffffff;
 }
 div.responsive {
@@ -229,7 +229,7 @@ div.gifProject {
     height: 200px;
     border: 1px solid black;
     margin-left: 2rem;
-    background-image: url(../images/RIW.jpg); 
+    background-image: url(../images/gif.jpg); 
     display: inline-block;
     margin-top: 2rem;
 
@@ -242,6 +242,25 @@ div.gifLink {
     left:0;
     top: 60%;
     text-align: center;    
+}
+div.trainSchedule {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 2rem;
+    background-image: url(../images/train.jpg);
+    margin-top: 1rem;
+    display: inline-block;
+}
+div.trainScheduleLink{
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;
 }
 .nav-nav>li {
     border-right: 1px solid grey;
